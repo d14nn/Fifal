@@ -1,0 +1,436 @@
+.html , body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation */
+#hp {
+    display: none;
+}
+ul.navigation {
+    position: absolute;
+    position: sticky;
+    top: 0;
+    padding-top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    background-color: rgb(216, 216, 216);
+}
+
+
+.navigation > li {
+    display: inline-block;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.navigation > li > a {
+    padding: 1em 2em;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: .9s;
+}
+
+#nav_icon {
+    float: left;
+    padding: 10px;
+    transition: .9s;
+}
+
+#nav_icon > img {
+    height: 30px;
+}
+
+#logn_in {
+    background-color: rgb(35, 61, 0);
+    width: auto;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 8px;
+    transition: .9s;
+    color: white;
+}
+
+#logn_in:hover {
+    background-color: rgb(25, 255, 5);
+    color: black;   
+}
+
+.navigation > li > a:hover {
+    background-color: rgb(33, 117, 25);
+    color: rgb(25, 255, 5);
+}
+
+
+.homepage {
+    color: white;
+    padding-top: 200;
+    padding-bottom: 0px;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#Home {
+    background-image: url("./New folder/Picture1.png");
+    margin-top: 0px;
+    padding-bottom: 50px;
+    padding-top: 160px;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#Home > h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: rgb(25, 255, 0);
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#Home > img {
+    height: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.layananhome {
+    text-align: center;
+    font-family: roboto;
+    font-size: 24px;
+    margin-top: 0px;
+    padding-top: 5em;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+#produksaya {
+    color: white;
+}
+
+/* About saya */
+
+#About {
+    background-color: white;
+    text-align: center;
+}
+
+
+
+#About > h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 48px;
+    color: black;
+    text-decoration: underline;
+}
+
+#About > div > p {
+    color: black;
+    text-align: center;
+    max-width: 20.5em;
+}
+
+#About > div > h1 {
+    color: rgb(5, 61, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#About > div > img {
+    width: 12em;
+    padding: 5em 3em 1em 3em;
+}
+
+#About > div {
+    display: inline-block;
+    margin: 2em 5px 5em 5px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: rgb(255, 255, 255);
+    transition: .9s;
+    text-align: center;
+}
+
+#About > div:hover {
+    background-color: rgb(25, 255, 0);
+    transition-duration: 1s;
+}
+
+/* Profile */
+#profile {
+    background-color: rgb(194, 230, 191);
+    margin-bottom: 0px;
+}
+
+#profile > img {
+    width: 38em;
+    margin-bottom: 0px;
+}
+#profile > div > h1 {
+    color: black;
+    max-width: 20em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#profile > div > p {
+    color: black;
+    font-family: roboto;
+    font-size: 16px;
+    padding-bottom: 0px;
+}
+
+.foto_profile, .Keterangan_profile {
+    display: inline-block;
+}
+
+.Keterangan_profile {
+    vertical-align: top;
+    max-width: 35em;
+}
+
+.foto_profile {
+    vertical-align: center;
+    margin: 0px;
+}
+
+#profile > div {
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+#call_me {
+    background-color: rgb(35, 61, 0);
+    width: 10em;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 8px;
+    transition: .9s;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+#call_me:hover {
+    background-color: rgb(25, 255, 0);
+    color: rgb(35, 61, 0);
+    text-decoration: none;
+}
+
+/* Produk */
+
+#produk {
+    background-image: url("./New folder/Background_Product_Page.png");
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 3em;
+    margin-bottom: 0px;
+}
+
+#produk > h1 {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 48px;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+#produk > img {
+    max-width: 20em;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+#produk > img:hover {
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
+
+/* Contact */
+
+#Contact {
+    background-color: white;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#Contact > h1 {
+    margin: 0px;
+    padding-top: 48px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Contact > div {
+    display: inline-block;
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#Contact > div:hover {
+    background-color: rgb(163, 163, 163);
+    transition-duration: 1s;
+}
+
+#Contact > div > a > p {
+    color: black;
+    text-align: center;
+    font-family: roboto;
+}
+#Contact > div > a > img {
+    width: 8em;
+}
+
+/* ADV */
+#adverticment {
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#adverticment > div > h4 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#adverticment >div {
+    color: white;
+    font-family: roboto; 
+    padding-top: 24px; 
+    padding-bottom: 18px;
+}
+
+#adverticment > div > ul {
+    list-style: none;
+}
+
+#adverticment > div > ul > li > a {
+    color: rgb(25, 255, 0);
+}
+
+.dekstop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1255px) {
+    #hp {
+        display: block;
+        text-decoration: bold;
+        text-align: center;
+        color: rgb(33, 117, 25);
+        font-size: 32px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    ul.navigation {
+        text-align: center;
+    }
+    .body {
+        display: inherit;
+    }
+    #nav_icon, #sign_up {
+        display: none;
+    }
+    #Home > img {
+        width: 45%;
+        height: auto;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    #mobile  > a {
+        display: none;
+    }
+    #sign_up {
+        margin:10px;
+    }
+    #Home >h1 {
+        display: none;
+    }
+
+    #profile{
+        text-align: center;
+    }
+    #profile > img {
+        display: none;
+    }
+    #profile > div > h1,p {
+        text-align: center;
+    }
+
+    #profile > div {
+        margin: 0px;
+        text-align: center;
+    }
+    .Keterangan_profile {
+        max-width: auto;
+    }
+    #profile > div > a {
+        display: none;
+    }
+    #Contact > div {
+        display:  list-item;
+    }
+    .layananhome {
+        font-size: 14px;
+    }
+    #About > div > img {
+        width: 30%;
+        padding: auto;
+    }
+    #About > div > h1 {
+        font-size: auto;
+        width: auto;
+        padding: 0px;
+    }
+    #About > div > p{
+        font-size: auto;
+        display: inline;
+        text-align: center;
+    }
+    #About > div {
+        padding: 20px;
+    }
+    .support {
+        background-color: black;
+    }
+    #adverticment {
+        text-align: center;
+        background-color: black;
+        padding: 0px;
+    }
+}
